@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Raja - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Roboto Slab', serif;
+        }
+        nav {
+            margin: 0 auto;
+            max-width: 800px;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skills div, .projects div {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #e8f5e9;
+            width: calc(50% - 10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-weight: 600;
+        }
+        .skills div:hover, .projects div:hover {
+            background-color: #c8e6c9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Roboto Slab', serif;
+        }
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        h2 {
+            color: #4CAF50;
+            font-family: 'Roboto Slab', serif;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sahil Raja</h1>
+        <p>Software Development | Coding Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy playing basketball and video games. I have completed my BTech degree from Chandigarh University. I am a coding enthusiast and always eager to learn new technologies like Python, JavaScript, C++, and SQL.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>HTML</div>
+            <div>C++</div>
+            <div>Python</div>
+            <div>DBMS</div>
+            <div>Operating Systems</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div>
+                <h3>Gas Leakage Detection System</h3>
+                <p>Developed an IoT-based system to detect gas leaks and ensure safety.</p>
+            </div>
+            <div>
+                <h3>AR/VR Applications Research</h3>
+                <p>Conducted in-depth research on various AR/VR applications in real-world scenarios.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sahilaliraza7337@gmail.com">sahilaliraza7337@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917905716890">7905716890</a></p>
+        <p>GitHub: <a href="https://github.com/Sahil-786-bit" target="_blank">Sahil-786-bit</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sahil-raja-64b71b24b/" target="_blank">Sahil Raja</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sahil Raja | Made with HTML, CSS, and JavaScript</p>
+    </footer>
+</body>
+</html>
